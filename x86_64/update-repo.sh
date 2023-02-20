@@ -3,7 +3,7 @@
 rm samos_repo*
 
 echo "repo-add"
-repo-add -n -R samos_repo.db.tar.gz *.pkg.tar.zst
+repo-add -s -n -R samos_repo.db.tar.gz *.pkg.tar.zst
 
 sleep 1
 
